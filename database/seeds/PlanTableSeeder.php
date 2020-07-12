@@ -2,7 +2,7 @@
 
 use Cviebrock\EloquentSluggable\Services\SlugService;
 use Illuminate\Database\Seeder;
-use SAASBoilerplate\Domain\Subscriptions\Models\Plan;
+use Xploro\Domain\Subscriptions\Models\Plan;
 
 class PlanTableSeeder extends Seeder
 {

@@ -11,10 +11,10 @@ class ProjectTableSeeder extends Seeder
      */
     public function run()
     {
-        $companies = \SAASBoilerplate\Domain\Company\Models\Company::limit(2)->get();
+        $companies = \Xploro\Domain\Company\Models\Company::limit(2)->get();
 
         $companies->each(function ($u) {
-            $u->projects()->saveMany(factory(\SAASBoilerplate\Domain\Project\Models\Project::class, 5)->make());
+            $u->projects()->saveMany(factory(\Xploro\Domain\Project\Models\Project::class, 5)->make());
         });
 
     }

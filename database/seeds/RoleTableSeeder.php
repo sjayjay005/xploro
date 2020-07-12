@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use SAASBoilerplate\Domain\Users\Models\Permission;
-use SAASBoilerplate\Domain\Users\Models\Role;
+use Xploro\Domain\Users\Models\Permission;
+use Xploro\Domain\Users\Models\Role;
 
 class RoleTableSeeder extends Seeder
 {
