@@ -1,8 +1,5 @@
-# saas-boilerplate
-This is a SaaS boilerplate built on top of the Laravel framework. 
-Built to provide developers with a template to kickoff their SaaS application,
-without the hustle for repetitive tasks such as user account setup, subscriptions 
-and role management.
+# Xploro
+Xploro is South Africa's leading Job portal, Resume Builder using AI at it's core.
 
 ## features
 - Authentication
@@ -35,7 +32,7 @@ and role management.
     - API access (starter template)
 
 *Note: Some features may be subjected to change. Other features may not be listed 
-since they are under development or do not qualify as a standard / main SaaS feature. 
+since they are under development or do not qualify as a standard / main Xploro feature. 
 Some common features will not be listed as well.*
 
 ## installation
@@ -81,7 +78,7 @@ handy in fixing or preventing  broken assets urls.
 #### Model setup
 To start using single databse multi-tenancy call `ForTenants` trait on a model
 ```php
-use SAASBoilerplate\App\Tenant\Traits\ForTenants;
+use Xploro\App\Tenant\Traits\ForTenants;
 
 class Project extends Model
 {
